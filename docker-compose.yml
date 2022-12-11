@@ -1,0 +1,17 @@
+services:
+  rundeck:
+    image: rundeck/rundeck:3.2.9
+    environment:
+      - RUNDECK_DATABASE_DRIVER=com.mysql.jdbc.Driver
+      - RUNDECK_DATABASE_DRIVER=org.mariadb.jdbc.Driver
+      - RUNDECK_DATABASE_USERNAME=root
+      - RUNDECK_DATABASE_URL=jdbc:mysql://mysql/rundeck?autoReconnect=true&useSSL=false
+    ports:
+      - "4440:4440"
+  mysql:
+    image: mysql:8.0
+    environment:
+      - MYSQL_DATABASE=rundeck
+      - MYSQL_ALLOW_EMPTY_PASSWORD=true
+    ports:
+      - "3306:3306"
