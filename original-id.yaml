@@ -3,7 +3,7 @@
   executionEnabled: true
   id: original-id
   loglevel: INFO
-  name: original-job
+  name: original-job-modified
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
