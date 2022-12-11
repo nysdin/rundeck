@@ -10,7 +10,7 @@
   scheduleEnabled: true
   sequence:
     commands:
-    - script: echo 'original job'
+    - script: echo 'original job modify!!'
     keepgoing: false
     strategy: node-first
   uuid: original-id
