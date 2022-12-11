@@ -10,7 +10,7 @@
   scheduleEnabled: true
   sequence:
     commands:
-    - script: echo 'job3'
+    - script: echo 'job3!!!!!!1'
     keepgoing: false
     strategy: node-first
   uuid: cdb320e3-6012-426a-ac1a-c54703514a08
