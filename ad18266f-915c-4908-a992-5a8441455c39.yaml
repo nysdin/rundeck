@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: ''
+  executionEnabled: true
+  id: ad18266f-915c-4908-a992-5a8441455c39
+  loglevel: INFO
+  name: ジョブ
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - script: ehco
+    keepgoing: false
+    strategy: node-first
+  uuid: ad18266f-915c-4908-a992-5a8441455c39
+
