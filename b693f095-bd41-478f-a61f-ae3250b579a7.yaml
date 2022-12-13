@@ -3,14 +3,14 @@
   executionEnabled: true
   id: b693f095-bd41-478f-a61f-ae3250b579a7
   loglevel: INFO
-  name: ジョブ
+  name: ジョブ編集した
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
   scheduleEnabled: true
   sequence:
     commands:
-    - script: echo
+    - script: echo hoe
     keepgoing: false
     strategy: node-first
   uuid: b693f095-bd41-478f-a61f-ae3250b579a7
