@@ -3,7 +3,7 @@
   executionEnabled: true
   id: 3d90bfe5-8ef3-4ca2-a1e3-fc461cfb889e
   loglevel: INFO
-  name: a
+  name: ab
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
