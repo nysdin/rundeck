@@ -1,7 +1,7 @@
 - defaultTab: nodes
   description: ''
   executionEnabled: true
-  id: 2022-12-13-1059
+  id: 
   loglevel: INFO
   name: job8
   nodeFilterEditable: false
