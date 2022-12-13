@@ -1,6 +1,7 @@
 - defaultTab: nodes
   description: ''
   executionEnabled: true
+  group: group1/subgroup
   id: d63b86b1-aad6-4090-afcc-f4dd6ece0f71
   loglevel: INFO
   name: ab
