@@ -13,5 +13,5 @@
     - script: echo job8
     keepgoing: false
     strategy: node-first
-  uuid: test-uuid
+  uuid: 2022-12-13-1020
 
