@@ -1,5 +1,5 @@
 - defaultTab: nodes
-  description: modified description
+  description: modified from yaml file
   executionEnabled: true
   id: 586bbba2-62a6-4e43-b089-525fe287ffff
   loglevel: INFO
@@ -10,7 +10,7 @@
   scheduleEnabled: false
   sequence:
     commands:
-    - exec: echo
+    - exec: echo hello
     keepgoing: false
     strategy: node-first
   uuid: 586bbba2-62a6-4e43-b089-525fe287ffff
