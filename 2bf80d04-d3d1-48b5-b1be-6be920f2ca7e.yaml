@@ -1,0 +1,17 @@
+- defaultTab: nodes
+  description: GUIからら追加
+  executionEnabled: true
+  id: 2bf80d04-d3d1-48b5-b1be-6be920f2ca7e
+  loglevel: INFO
+  name: 新規ジョブ追加
+  nodeFilterEditable: false
+  plugins:
+    ExecutionLifecycle: null
+  scheduleEnabled: true
+  sequence:
+    commands:
+    - script: echo hoge
+    keepgoing: false
+    strategy: node-first
+  uuid: 2bf80d04-d3d1-48b5-b1be-6be920f2ca7e
+
