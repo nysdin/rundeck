@@ -1,5 +1,5 @@
 - defaultTab: nodes
-  description: a
+  description: modified description
   executionEnabled: true
   id: 586bbba2-62a6-4e43-b089-525fe287ffff
   loglevel: INFO
@@ -7,7 +7,7 @@
   nodeFilterEditable: false
   plugins:
     ExecutionLifecycle: null
-  scheduleEnabled: true
+  scheduleEnabled: false
   sequence:
     commands:
     - exec: echo
